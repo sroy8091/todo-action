@@ -1,6 +1,6 @@
 name: "units-test"
 env: 
-  TODO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  TODO_TOKEN: ${{ secrets.TODO_TOKEN }}
 on:
   label:
     types: [created, deleted]
