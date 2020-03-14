@@ -1,10 +1,8 @@
 name: "units-test"
+env: TODO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 on:
-  pull_request:
-  push:
-    branches:
-      - master
-      - 'releases/*'
+  label:
+    types: [created, deleted]
 
 jobs:
   # unit tests
