@@ -1,4 +1,5 @@
-on: [label]
+on:
+  label: [create, delete]
 
 jobs:
   hello_world_job:
